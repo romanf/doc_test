@@ -1,10 +1,14 @@
-This is die erste Zeile.
+This is die erste Zeile!
 
-Und hier die Zweite, welche nun auch separat ist.
+Und hier die Zweite, welche nun auch separat ist!
 
 Schliesslich noch Nr. 3! Lokal geändert mit einbezug von github.
 
 und was ist, wenn ich noch eine Zeile anhänge?
-noch ein Change.
+noch ein Change!
 
-geändert in gitlab - auch das wurde geändert, in der letzten Zeile.
+geändert sowohl auf Github als auch lokal. - auch das wurde geändert, in der letzten Zeile!
+
+und es brauchte noch eine Zeile... sonst wär's nicht komplett.
+
+Nun sind wir fast fertig.
