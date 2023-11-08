@@ -1,0 +1,53 @@
+## Incident Report
+
+### Summary
+An internal employee raised a question about the content of the EV juristictionStateOrProvinceName field. This question was reviewed by our product manager and he realized that we use the ISO 3166-2 code for this field instead of the full name of the State or Province as required by EV Guidelines chapter 9.2.4. The product manager then started the internal compliance incident process.
+
+### Impact
+
+### Timeline
+
+All times are UTC.
+
+2023-10-20:
+- 12:30 UTC A SwissSign internal employee raises a question about EV juristictionStateOrProvince Name field
+
+2023-10-23:
+- 05:30 UTC Product manager reviews question and discovers non-compliance to EV Guidelines 9.2.4, compliance incident raised
+- 06:00 UTC Compliance team confirms non-compliance and gives order to stop issuance of EV certificates and started root cause analysis
+- 07:00 UTC List of affected certificates compiled
+- 07:15 UTC Affected customers informed, Audit body informed
+- 08:30 UTC Root cause identified, developers identify quick emergency fix
+- 09:45 UTC Emergency fix reviewed, tested and deployed
+- 10:00 UTC Issuance of EV certificates resumed
+
+2023-10-24:
+- 08:30 UTC CPR TLS updated and published
+- 08:45 UTC Bugzilla posted
+
+
+### Root Cause Analysis
+
+### Lessons Learned
+
+#### What went well
+*
+
+#### What didn't go well
+*
+
+#### Where we got lucky
+*
+
+### Action Items
+
+| Action Item | Kind | Due Date |
+| ----------- | ---- | -------- |
+| Example | Prevent | 2038-01-19 |
+
+### Appendix
+
+#### Details of affected certificates
+
+
+From <https://www.ccadb.org/cas/incident-report#incident-report-template> 
